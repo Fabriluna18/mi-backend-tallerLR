@@ -19,4 +19,4 @@ router.patch( "/servicios/:id/desactivar",   verificarToken, desactivarServicio)
 router.patch( "/servicios/:id/reactivar",     verificarToken, reactivarServicio);
 export default router;
 
-console.log("")
+console.log("test");
