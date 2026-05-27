@@ -6,7 +6,7 @@ import {
   updateServicio,
   desactivarServicio,
   reactivarServicio,
-} from "../controllers/serviciosController.js";
+} from "../controllers/servicioscontroller.js";
 import verificarToken from "../middleware/authMiddleware.js";
 
 const router = Router();
